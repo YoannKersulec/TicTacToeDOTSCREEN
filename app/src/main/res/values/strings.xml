@@ -3,7 +3,12 @@
     <string name="x_won">X has won</string>
     <string name="o_won">0 has won</string>
     <string name="draw">It\'s a draw</string>
-    <string name="x_won_round">X has won this round</string>
-    <string name="o_won_round">0 has won this round</string>
-    <string name="draw_round">It\'s a draw for this round</string>
+    <string name="x_won_round">X has won this round - Tap to replay</string>
+    <string name="o_won_round">0 has won this round - Tap to replay</string>
+    <string name="draw_round">It\'s a draw for this round - Tap to replay</string>
+    <string name="x_score">X Score :</string>
+    <string name="o_score">O Score :</string>
+    <string name="reset_string">RESET</string>
+    <string name="x_turn">X\'s Turn - Tap to play</string>
+    <string name="o_turn">O\'s Turn - Tap to play</string>
 </resources>

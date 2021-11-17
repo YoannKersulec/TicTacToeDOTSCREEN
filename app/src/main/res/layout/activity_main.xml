@@ -21,22 +21,28 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textSize="40sp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
+            android:orientation="vertical"
+            android:gravity="center"
             android:layout_weight="1">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="X Score"/>
+                android:textSize="20sp"
+                android:text="@string/x_score"/>
 
             <TextView
                 android:id="@+id/xScore"
+                android:textSize="20sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
@@ -45,16 +51,19 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal"
+            android:orientation="vertical"
+            android:gravity="center"
             android:layout_weight="1">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="O Score"/>
+                android:textSize="20sp"
+                android:text="@string/o_score"/>
 
             <TextView
                 android:id="@+id/oScore"
+                android:textSize="20sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 
@@ -68,6 +77,7 @@
         android:layout_height="100dp"
         app:layout_constraintTop_toBottomOf="@id/layoutTimeScore"
         app:layout_constraintStart_toStartOf="parent"
+        android:text="@string/reset_string"
         android:visibility="gone"
         />
 
@@ -102,7 +112,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:onClick="playerTap"
                 android:padding="20sp"
                 android:tag="0" />
 
@@ -112,7 +121,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="20sp"
-                android:onClick="playerTap"
                 android:tag="1" />
 
             <ImageView
@@ -121,7 +129,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="20sp"
-                android:onClick="playerTap"
                 android:tag="2" />
         </LinearLayout>
 
@@ -137,7 +144,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="20sp"
-                android:onClick="playerTap"
                 android:tag="3" />
 
             <ImageView
@@ -146,7 +152,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="20sp"
-                android:onClick="playerTap"
                 android:tag="4" />
 
             <ImageView
@@ -155,7 +160,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="20sp"
-                android:onClick="playerTap"
                 android:tag="5" />
         </LinearLayout>
 
@@ -171,7 +175,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="20sp"
-                android:onClick="playerTap"
                 android:tag="6" />
 
             <ImageView
@@ -180,7 +183,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="20sp"
-                android:onClick="playerTap"
                 android:tag="7" />
 
             <ImageView
@@ -189,7 +191,6 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:padding="20sp"
-                android:onClick="playerTap"
                 android:tag="8" />
         </LinearLayout>
 
@@ -199,7 +200,7 @@
         android:id="@+id/status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="12sp"
+        android:layout_marginBottom="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
