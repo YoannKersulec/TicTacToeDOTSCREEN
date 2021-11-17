@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
     var xWin = 0
     var oWin = 0
 
-    val time = 30000
+    val time = 180000
 
     private var winPositions = arrayOf(
         intArrayOf(0, 1, 2),
