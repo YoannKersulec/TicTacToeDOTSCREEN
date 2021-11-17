@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TicTacToe</string>
+    <string name="x_won">X has won</string>
+    <string name="o_won">0 has won</string>
+    <string name="draw">It\'s a draw</string>
+    <string name="x_won_round">X has won this round</string>
+    <string name="o_won_round">0 has won this round</string>
+    <string name="draw_round">It\'s a draw for this round</string>
 </resources>
